@@ -10,4 +10,6 @@ steps followed:
     2. removing the unwanted text, dots etc.
     3. Vectorizing the cleaned data with TF-IDF technique
 4. training and Testing the model
-5. Result with Accuracy of 91%
+5. Result with Accuracy of 91% (MultinomialNB) and 99% (LSTM)
+
+Multinominal model accuracy is by taking all columns but LSTM is only for title and author columns beacuse while taking all the columns the time taken is more.
